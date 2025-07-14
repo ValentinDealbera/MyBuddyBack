@@ -1,6 +1,12 @@
 const {Dog, Temperament, conn} = require('../db')
 const axios = require('axios')
 
+const config = {
+  headers: {
+    'x-api-key': 'live_kCeNGDzwTMLUJPelNOeGCfR9mBEKlKPH3Uz2Xcp02pWfZDzj8SjR3vfVB5ELQxKr',
+  }
+};
+
 const getAllDogs = async (req, res)=>{
     try {
         const dogsApi = await axios.get('https://api.thedogapi.com/v1/breeds')
