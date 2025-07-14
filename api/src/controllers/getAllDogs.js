@@ -3,7 +3,7 @@ const axios = require('axios')
 
 const config = {
   headers: {
-    'x-api-key': 'live_kCeNGDzwTMLUJPelNOeGCfR9mBEKlKPH3Uz2Xcp02pWfZDzj8SjR3vfVB5ELQxKr',
+    'x-api-key': '*N/A*',
   }
 };
 
